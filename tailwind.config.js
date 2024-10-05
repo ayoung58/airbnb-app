@@ -12,8 +12,8 @@ export default {
         poppins: ['"Poppins"']
       },
       fontSize: {
-        h1: '64px',
-        subtitle: '56px',
+        h1: '2.5rem',
+        subtitle: '1.5rem',
       },
       textShadow: {
         sm: '0 1px 2px var(--tw-shadow-color)',
