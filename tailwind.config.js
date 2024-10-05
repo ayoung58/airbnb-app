@@ -13,6 +13,7 @@ export default {
       },
       fontSize: {
         h1: '64px',
+        subtitle: '56px',
       },
       textShadow: {
         sm: '0 1px 2px var(--tw-shadow-color)',
