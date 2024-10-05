@@ -1,9 +1,9 @@
-function Header() {
+function Nav() {
     return (
-        <nav className="flex shadow-md bg-dark-gray">
-            <img src="./airbnb_logo.png" className='w-auto' />
+        <nav className="flex shadow-md p-4 bg-dark-gray">
+            <img src="./airbnb_logo.png" />
         </nav>
     )   
 }
 
-export default Header;
+export default Nav;
