@@ -4,12 +4,13 @@ import './index.css'
 import Nav from './components/Nav';
 import Header from './components/Header';
 import Body from './components/Body';
+import Card from './components/Card';
 import data from "./data"
 
 function App() {
   const cards = data.map(item => {
     return (
-      <Body 
+      <Card 
         key={item.id}
         {...item}
       />
@@ -19,9 +20,12 @@ function App() {
     <div>
       <Nav />
       <Header />
-      <section>
-        {cards}
+      <div className='flex ml-14 gap-48'>
+        <Body />
+        <section className='flex flex-nowrap overflow-x-auto gap-5'>
+          {cards}
       </section>
+      </div>
     </div>
   )
 }
